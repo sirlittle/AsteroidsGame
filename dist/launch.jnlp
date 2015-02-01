@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>AsteroidsGame</title>
+        <vendor>vanvari</vendor>
+        <homepage href=""/>
+        <description>AsteroidsGame</description>
+        <description kind="short">AsteroidsGame</description>
+        
+        
+    </information>
+    <update check="always"/>
+    
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="AsteroidsGame.jar" main="true"/>
+        
+        
+    </resources>
+    <applet-desc height="500" main-class="AsteroidsGame" name="AsteroidsGame" width="500">
+        
+    </applet-desc>
+</jnlp>
